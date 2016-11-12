@@ -116,7 +116,7 @@ h6, .h6 {
 }
 
 .page-heading {
-  border-left: 3px solid #92d155;
+  border-left: 3px solid #42424B;
   padding-left: 12px;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -247,21 +247,21 @@ pre {
 \*------------------------------------*/
 a {
   text-decoration: underline;
-  color: #78bf34;
+  color: #42424B;
 }
 
 a:visited {
-  color: #78bf34;
+  color: #42424B;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #78bf34;
+  color: #42424B;
 }
 
 a:focus {
   outline: thin dotted;
-  color: #78bf34;
+  color: #42424B;
 }
 
 a:hover,
@@ -359,7 +359,7 @@ input[type="radio"] {
   padding: 0;
   margin: 0 3px 0 0;
   line-height: normal;
-  border: 1px solid #92d155;
+  border: 1px solid #42424B;
   border-radius: 2px;
   cursor: pointer;
   background-color: white;
@@ -376,10 +376,10 @@ input[type="radio"] {
 
 input[type="checkbox"]:checked,
 input[type="radio"]:checked {
-  background-color: #92d155;
+  background-color: #42424B;
   border-color: white;
   border-width: 1px;
-  box-shadow: 0 0 0 1px #92d155;
+  box-shadow: 0 0 0 1px #42424B;
 }
 
 input[type="checkbox"]:focus,
@@ -620,7 +620,7 @@ textarea[readonly] {
 }
 
 .twocols__aside {
-  background-color: #86A34E;
+  background-color: #42424B;
 }
 
 @media (min-width: 56.25em) {
@@ -911,12 +911,12 @@ body {
 }
 
 .topbar {
-  background-color: #86A34E;
+  background-color: #42424B;
   color: #c5ced9;
 }
 
 .topbar strong {
-  color: #92d155;
+  color: #42424B;
 }
 
 .topbar--form {
@@ -1011,14 +1011,14 @@ body {
 }
 
 .block--highlight .block__title {
-  background-color: #6cab2e;
+  background-color: #42424B;
   color: white;
 }
 
 .block__title {
   width: 100%;
   line-height: 2.3;
-  background-color: #86A34E;
+  background-color: #42424B;
   color: white;
   padding: 0 12px;
   text-transform: uppercase;
@@ -1072,6 +1072,7 @@ body {
   padding: 24px;
   background-color: white;
   position: relative;
+  
 }
 
 .block-bg {
@@ -1088,6 +1089,10 @@ body {
   background-color: white;
   color: black;
   border-bottom: 1px solid #e6e6e6;
+ /* background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(img/p1.png)!important;
+  background-attachment: fixed;*/
 }
 
 .block__footer {
@@ -1095,6 +1100,10 @@ body {
   bottom: 12px;
   width: 100%;
   padding: 6px;
+  /*background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(img/p1.png)!important;
+  background-attachment: fixed;*/
 }
 
 .block--white {
@@ -1224,7 +1233,7 @@ nav {
 .nav__list li {
   display: inline-block;
   line-height: 3;
-  background-color: #92d155;
+  background-color: #42424B;
   padding-left: 1em;
   padding-right: 1em;
 

@@ -1,12 +1,14 @@
 <footer class="max-width">
 	<div class="block max-width">
 		<?php 
-			wp_nav_menu(
-				array (
-					'theme_location' => 'bottom-menu'
-					)
-				);
-		 ?>
+	wp_nav_menu(
+		array (
+			'theme_location' => 'bottom-menu',
+			'container' => 'nav',
+			'menu_class' => 'nav__list'
+			)
+		);
+ ?>
 		<div class="block__title">
 			Footer
 		</div>

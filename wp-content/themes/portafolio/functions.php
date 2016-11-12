@@ -6,7 +6,8 @@ function register_my_menus() {
 	register_nav_menus(
 		array(
 			'top-menu' => __('Menú Superior'),
-			'bottom-menu' => __('Menú del footer')
+			'bottom-menu' => __('Menú del footer'),
+            'side-menu' => __('Menú del sidebar')
 			)
 		);
 }

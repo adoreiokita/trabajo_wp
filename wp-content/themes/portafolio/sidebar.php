@@ -3,12 +3,15 @@
 				Sidebar
 			</div>
 			<div class="block__body">
-				<ul>
-					<li>Random Text 1</li>
-					<li>Random Text 2</li>
-					<li>Random Text 3</li>
-					<li>Random Text 4</li>
-					<li>Random Text 5</li>
-				</ul>
+                <?php 
+	wp_nav_menu(
+		array (
+			'theme_location' => 'side-menu',
+			'container' => 'nav',
+			'menu_class' => 'nav__list'
+			)
+		);
+ ?>
+				
 			</div>
 		</div>
