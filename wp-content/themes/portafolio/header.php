@@ -8,3 +8,6 @@
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
+<h1 class="page-heading max-width">
+	<img src="http://netcaliper.com/img/LOGO_MINGENIERIA.svg" width="200" height="55">
+</h1>

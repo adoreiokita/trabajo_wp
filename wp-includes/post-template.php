@@ -110,7 +110,8 @@ function the_title_attribute( $args = '' ) {
 function get_the_title( $post = 0 ) {
 	$post = get_post( $post );
 
-	$title = isset( $post->post_title ) ? $post->post_title : '';
+    $logo = '<img src="wp-content/uploads/2016/11/LOGO_MINGENIERIA.svg" width="100px" height="38px">';
+	$title =  '';//isset( $post->post_title ) ? $logo.$post->post_title : '';
 	$id = isset( $post->ID ) ? $post->ID : 0;
 
 	if ( ! is_admin() ) {

@@ -8,7 +8,7 @@
 							the_post();
 				?>			<h1 class="page-heading max-width">
 								<span>Información: </span>
-								<?php the_title(); ?> 
+								<?php the_title(); ?>
 							</h1>
 							<div class="grid max-width">
 
